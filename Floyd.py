@@ -67,7 +67,7 @@ def printMatriz(matriz:list, ii = -1, jj = -1):
 
 def main():
     abcd = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    G = introducirDatos()778
+    G = introducirDatos()
     D = deepcopy(G)
     printMatriz(D)
     n = len(G)
